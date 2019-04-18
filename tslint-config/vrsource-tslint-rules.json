@@ -1,0 +1,15 @@
+{
+  "rulesDirectory": [
+    "../node_modules/vrsource-tslint-rules/rules"
+  ],
+  "extends": [],
+  "rules": {
+    "conditional-expression-parens": false,
+    "max-params": false, // rule already in SonarTS: parameters-max-number
+    "multiline-arrow": false, // arrow-parens in tslint
+    "ext-variable-name": false, // rule already set in tslint-consistent-codestyle:naming-convention
+    "literal-spacing": false, // rule set in tslint-eslint-rules:object-curly-spacing & tslint-eslint-rules:array-bracket-spacing
+    "prefer-case-blocks": true,
+    "prefer-literal": [true, "object", "function", "array"]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "rulesDirectory": [
+    "../node_modules/tslint-microsoft-contrib"
+  ],
+  "extends": [
+    "tslint-microsoft-contrib"
+  ],
+  "rules": {
+    // tslint-microsoft-contrib
+    "chai-prefer-contains-to-index-of": false,
+    "chai-vague-errors": false,
+    "export-name": false,
+    "function-name": false,
+    "import-name": false,
+    "insecure-random": true,
+    "informative-docs": false,
+    "jquery-deferred-must-complete": true,
+    "max-func-body-length": [
+      true,
+      100,
+      {
+        "ignore-parameters-to-function-regex": "describe"
+      }
+    ],
+    "missing-jsdoc": false, // Deprecated - use native "missing-jsdoc" instead
+    "missing-optional-annotation": false, // Deprecated - This rule is now enforced by the TypeScript compiler
+    "mocha-avoid-only": true,
+    "mocha-no-side-effect-code": false,
+    "mocha-unneeded-done": false,
+    "no-backbone-get-set-outside-model": false,
+    "no-banned-terms": true,
+    "no-constant-condition": true,
+    "no-control-regex": true,
+    "no-cookies": true,
+    "no-delete-expression": true,
+    "no-disable-auto-sanitization": true,
+    "no-document-domain": true,
+    "no-document-write": true,
+    "no-duplicate-case": false, // Deprecated - This rule can be replaced with TSLint's no-duplicate-switch-case
+    "no-duplicate-parameter-names": false, // Deprecated - This rule is now enforced by the TypeScript compiler
+    "no-empty-interfaces": false, // Deprecated - This rule can be replaced with TSLint's no-empty-interface
+    "no-empty-line-after-opening-brace": true,
+    "no-exec-script": true,
+    "no-for-in": true,
+    "no-function-constructor-with-string-args": true,
+    "no-function-expression": false,
+    "no-http-string": true,
+    "no-increment-decrement": false,
+    "no-inner-html": true,
+    "no-invalid-regexp": true,
+    "no-jquery-raw-elements": true,
+    "no-missing-visibility-modifiers": false, // Deprecated - This rule is in the TSLint product as member-access
+    "no-multiline-string": false,
+    "no-multiple-var-decl": false, // Deprecated - This rule is now part of the base TSLint product as the rule named 'one-variable-per-declaration'
+    "no-octal-literal": true,
+    "no-regex-spaces": true,
+    "no-relative-imports": false,
+    "no-reserved-keywords": true,
+    "no-single-line-block-comment": true,
+    "no-stateless-class": false, // Deprecated - This rule can be replaced with TSLint's no-unnecessary-class
+    "no-string-based-set-immediate": true,
+    "no-string-based-set-interval": true,
+    "no-string-based-set-timeout": true,
+    "no-suspicious-comment": true,
+    "no-typeof-undefined": true,
+    "no-unexternalized-strings": true,
+    "no-unnecessary-bind": true,
+    "no-unnecessary-field-initialization": true,
+    "no-unnecessary-local-variable": true,
+    "no-unnecessary-override": true,
+    "no-unnecessary-semicolons": true,
+    "no-unsupported-browser-code": true,
+    "no-useless-files": true,
+    "no-var-self": false, // Deprecated - This rule can be replaced with TSLint's no-this-assignment
+    "no-with-statement": true,
+    "non-literal-fs-path": false,
+    "non-literal-require": true,
+    "possible-timing-attack": true,
+    "prefer-array-literal": true,
+    "prefer-type-cast": true,
+    "promise-must-complete": false,
+    "react-a11y-accessible-headings": false, // we are not in react
+    "react-a11y-anchors": false, // we are not in react
+    "react-a11y-aria-unsupported-elements": false, // we are not in react
+    "react-a11y-event-has-role": false, // we are not in react
+    "react-a11y-iframes": false, // we are not in react
+    "react-a11y-image-button-has-alt": false, // we are not in react
+    "react-a11y-img-has-alt": false, // we are not in react
+    "react-a11y-input-elements": false, // we are not in react
+    "react-a11y-lang": false, // we are not in react
+    "react-a11y-meta": false, // we are not in react
+    "react-a11y-no-onchange": false, // we are not in react
+    "react-a11y-props": false, // we are not in react
+    "react-a11y-proptypes": false, // we are not in react
+    "react-a11y-required": false, // we are not in react
+    "react-a11y-role-has-required-aria-props": false, // we are not in react
+    "react-a11y-role-supports-aria-props": false, // we are not in react
+    "react-a11y-role": false, // we are not in react
+    "react-a11y-tabindex-no-positive": false, // we are not in react
+    "react-a11y-titles": false, // we are not in react
+    "react-anchor-blank-noopener": false, // we are not in react
+    "react-iframe-missing-sandbox": false, // we are not in react
+    "react-no-dangerous-html": false, // we are not in react
+    "react-this-binding-issue": false, // we are not in react
+    "react-tsx-curly-spacing": false, // we are not in react
+    "react-unused-props-and-state": false, // we are not in react
+    "underscore-consistent-invocation": [
+      true,
+      {
+        "style": "static"
+      }
+    ],
+    "use-named-parameter": true,
+    "use-simple-attributes": false, // rule for jsx and tsx
+    "valid-typeof": false, // Deprecated - This rule is now enforced by the TypeScript compiler
+    "void-zero": true
+  }
+}

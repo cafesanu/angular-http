@@ -1,0 +1,22 @@
+{
+  "rulesDirectory": [
+    "../node_modules/tslint-clean-code/dist/src"
+  ],
+  "extends": [
+    "tslint-clean-code"
+  ],
+  "rules": {
+    "id-length": false,
+    "try-catch-first": false,
+    "max-func-args": false,
+    "min-class-cohesion": false,
+    "newspaper-order": false,
+    "no-flag-args": false,
+    "no-for-each-push": true,
+    "no-feature-envy": false,
+    "no-map-without-usage": true,
+    "no-complex-conditionals": [true, 2],
+    "prefer-dry-conditionals": [true, 2],
+    "no-commented-out-code": true
+  }
+}
